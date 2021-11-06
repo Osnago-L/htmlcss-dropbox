@@ -90,5 +90,19 @@ body{
     top: 0;
     left: 10px;
     width: 95%;
+} 
+/* MAIN PIANO DROPBOX */
+.maincontainer{
+    max-width: 65%;
+    margin: auto;
+    padding-top: 200px;
+}
+.planstitle h1{
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+.planstitle span{
+    font-size: 22px;
+    margin-right: 40px;
 }
 
