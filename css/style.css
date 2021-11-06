@@ -2,13 +2,40 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.banner{
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.navcontainer{
     position: fixed;
-    background-color: black;
+    background-color: white;
     height: 80px;
     width: 100vw;
+    padding: 25px 15px;
+}
+.leftnav{
+    padding: 0 40px;
+}
+.leftnav,.logo{
+    float: left;
+}
+.leftnav ul li, .rightnav ul li{
+    display: inline-block;
+    margin-right: 40px;
+    line-height: 25px;
+}
+.inizia, .rightnav{
+    float: right;
+}
+.inizia a{
+    color: white;
+    background-color: #0061ff;
+    padding: 7px 18px;
+    line-height: 25px;
 }
