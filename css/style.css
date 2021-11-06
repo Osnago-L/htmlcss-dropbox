@@ -49,10 +49,10 @@ body{
 .banner{
     background-color: #b4d0e7;
     width: 100vw;
-    height: 800px;
+    height: 750px;
 }
 .bannercontainer{
-    max-width: 80%;
+    max-width: 73%;
     margin: auto;
     padding-top: 80px;
 }
@@ -60,11 +60,26 @@ body{
     font-size: 80px;
 } 
 .bannerxy{
- margin-top: 60px;
+    margin-top: 60px;
 }
 .leftbanner{
     float: left;
-    width: 30%;
+    width: 25%;
+}
+.leftbanner p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.leftbanner a{
+    font-size: 20px;
+    background-color: #0061ff;
+    padding: 10px 20px;
+    color: white;
+    
+}
+.leftbanner p:last-child{
+    margin-top: 20px;
+    font-size: 15px;
 }
 .rightbanner{
     float: right;
@@ -73,7 +88,7 @@ body{
 .rightbanner img{
     position: relative;
     top: 0;
-    left: 60px;
+    left: 10px;
     width: 95%;
 }
 
