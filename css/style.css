@@ -105,4 +105,46 @@ body{
     font-size: 22px;
     margin-right: 40px;
 }
+ /* --- tabella costi e prezzi */
+.plans{
+    display: flex;
+}
+.plans>div{
+    width:30%;
+    border: 1px solid darkgrey;
+    margin-right: 5px;
+}
+.plans>div:first-child{
+    float: left;
+}
+.plans>div:nth-child(2){
+    margin: auto;
+}
+.plans>div:last-child{
+   float: right;
+}
+/* --- contenuto tabella */
+.planstitle{
+    margin-bottom: 40px;
+}
+.plans span{
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid darkgrey;
+    text-align: center;
+    padding: 5px 0;
+}
+.formatplans{
+    padding: 20px 30px;
+}
+.formatplans>h4{
+    margin: 25px 0;
+    font-size: 25px;
+
+}
+.formatplans>h5{
+    margin: 10px 0;
+    font-size: 14px;
+}
+
 
