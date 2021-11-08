@@ -9,6 +9,9 @@
 body{
     padding-top: 80px;
 }
+/* body *{
+    border: 1px solid black;
+} */
  /* SELETTORI GLOBALI  */
 .clearfix:after{
     content: "";
@@ -24,6 +27,7 @@ body{
     height: 80px;
     width: 100vw;
     padding: 25px 15px;
+    z-index: 999;
 }
 .leftnav{
     padding: 0 40px;
@@ -49,7 +53,6 @@ body{
 .banner{
     background-color: #b4d0e7;
     width: 100vw;
-    height: 750px;
 }
 .bannercontainer{
     max-width: 73%;
@@ -60,11 +63,12 @@ body{
     font-size: 80px;
 } 
 .bannerxy{
-    margin-top: 60px;
+    position: relative;
+    top: 90px;
 }
 .leftbanner{
     float: left;
-    width: 25%;
+    width: 30%;
 }
 .leftbanner p{
     font-size: 20px;
@@ -88,12 +92,12 @@ body{
 .rightbanner img{
     position: relative;
     top: 0;
-    left: 10px;
+    left: 40px;
     width: 95%;
 } 
 /* MAIN PIANI DROPBOX */
 .maincontainer{
-    max-width: 65%;
+    max-width: 60%;
     margin: auto;
     padding-top: 200px;
 }
@@ -112,44 +116,95 @@ body{
 .plans>div{
     width:30%;
     border: 1px solid darkgrey;
-    margin-right: 5px;
+    min-height: 800px;
 }
 .plans>div:first-child{
     float: left;
 }
 .plans>div:nth-child(2){
-    margin: auto;
+    margin: 0 auto;
 }
 .plans>div:last-child{
    float: right;
 }
-/* --- contenuto tabella */
 .planstitle{
     margin-bottom: 40px;
 }
-.plans>div>span{
+.plans>div>span, .bottomplan>span{
     display: inline-block;
     width: 100%;
     border-bottom: 1px solid darkgrey;
     text-align: center;
     padding: 5px 0;
 }
+/* --- contenuto tabella */
 .formatplans{
-    padding: 20px 30px;
+    padding: 30px 30px;
 }
-.formatplans>*{
-    margin: 15px 0;
-    display: block;
-}
-.formatplans>h4{
+.formatplans h4, .bottomplan h4{
     font-size: 25px;
+    margin-bottom: 15px;
 }
-.formatplans>h5{
+.formatplans h5, .bottomplan h5{
     font-size: 16px;
+    margin-bottom: 6px;
 }
 .month{
     color: darkgrey;
     font-size: 13px;
+    margin-bottom: 20px;
 }
-
-
+.infoplan>span{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.buttonplan>a:first-child{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    background-color: #0061ff;
+    color: white;
+    display: inline-block;
+}
+.buttonplan span{   
+    display: block;
+}
+.buttonplan a:last-child{
+    color: #0061ff;
+    text-decoration: underline;
+}
+.formatplans hr{
+    margin: 20px 0;
+    width:60px;
+}
+.listplan>span{
+    display: block;
+    font-size: 12px;
+    margin: 20px 0;
+}
+/* --------------- */
+.bottomplan{
+    margin-top: 40px;
+    width: 100%;
+    border: 1px solid darkgrey;
+    
+}
+.bottomplan div a{
+    padding: 10px 50px;
+    background-color: #0061ff ;
+    color: white;
+}
+.bottomplan>div:nth-child(2){
+    float: left;
+    width: 60%;
+    min-height: 150px;
+}
+.bottomplan>div:last-child{
+    float: left;
+    width: 30%;
+    min-height: 150px;
+}
+.bottomplan{
+    font-size: 15px;
+}
