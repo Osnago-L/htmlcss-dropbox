@@ -287,15 +287,17 @@ width: 50%;
 height: 50%;
 }
 .leftteams img,.rightteams img{
-    width: 150px;
+   width: 60%;
    position: relative;
    top: 50%;
    left: 50%;
    transform: translate(-50%,-50%);
+   filter: invert(100%);
 }
 /* backgrouyd color teams left  */
 .leftteams>div:nth-child(1){
 background-color: #a2d39b;
+border: 10px solid #d0e9cd;
 }
 .leftteams>div:nth-child(2){
 background-color:#61082b;
@@ -319,5 +321,44 @@ background-color:#ff1c1c ;
 .rightteams>div:nth-child(4){
     background-color: #ffd830;
 }
+.teamprova{
+    height: 500px;
+    background-color:#b4d0e7 ;
+    padding: 200px;
+}
+.leftteamprova{
+ float: left;
+ width: 40%;
+}
+.leftteamprova h1{
+    color: #743857;   
+}
+.rightteamprova{
+    float: right;
+    width: 40%;
+}
+.rightteamprova a{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    padding: 10px 60px;
+    background-color: white;
+    margin-left: 120px;
+}
 
+/* FAQ */
+.faq{
+    margin-top: 60px;
+}
+.off{
+    display: none;
+}
+.faq h2{
+    margin: 20px 0;
+}
+.faq>h2:hover+p {
+    display: block;
+    margin-bottom: 15px;
+
+}
 
