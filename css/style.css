@@ -187,23 +187,21 @@ body{
 .bottomplan{
     margin-top: 40px;
     width: 100%;
-    border: 1px solid darkgrey;
-    
+    border: 1px solid darkgrey;  
+    min-height: 100px;
 }
-.bottomplan div a{
+.bottomplan>div>div:first-of-type{
+    float: left;
+    width: 60%;
+}
+.bottomplan>div>div:last-of-type{
+    float: left;
+    width: 30%;
+}
+.bottomplan>div div a{
     padding: 10px 50px;
     background-color: #0061ff ;
     color: white;
-}
-.bottomplan>div:nth-child(2){
-    float: left;
-    width: 60%;
-    min-height: 150px;
-}
-.bottomplan>div:last-child{
-    float: left;
-    width: 30%;
-    min-height: 150px;
 }
 .bottomplan{
     font-size: 15px;
