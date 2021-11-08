@@ -96,12 +96,14 @@ body{
     width: 95%;
 } 
 /* MAIN PIANI DROPBOX */
+main{
+    padding-top: 200px;
+}
 .maincontainer{
     max-width: 60%;
     margin: auto;
-    padding-top: 200px;
 }
-.planstitle h1{
+h1{
     font-size: 40px;
     margin-bottom: 70px;
 }
@@ -208,7 +210,8 @@ body{
 }
 /* PARTNER MAIN  */
 .mainpartner{
-   margin: 100px 0;
+   margin-top: 150px;
+
 }
 .mainpartner img{
     width: 50%;
@@ -225,6 +228,93 @@ body{
 .mainpartner>div a{
     padding: 10px 15px;
     border: 1px solid black;
+}
+
+/* BUSINESS MAIN */
+.mainbusiness{
+    margin-top: 100px;
+}
+.businessinfo{
+    width: 30%;
+    float: left;
+    margin: 0 35px 40px 0;
+}
+.businessinfo p {
+    margin: 20px 0;
+}
+.businessinfo img{
+    width: 100%;
+}
+ /* TEAMS MAIN  */
+ .mainteams h1{
+    margin-bottom: 30px;
+}
+.mainteams a{
+    text-decoration: underline;
+    color:  blue;
+}
+.teams{
+    width: 100vw;
+    height: calc(var(100vw / 30) * 100);
+}
+.leftteams{
+    /* height: calc(var(100vw / 30) * 100); */
+    width: 30%;
+    float: left;
+}
+.quotes{
+    background-color: #f5f5f5;
+    padding: 50px 50px;
+    float: left;
+    width: 40%;
+    /* height: calc(var(100vw / 100) * 30); */
+    
+}
+.quotes img{
+    width: 200px;
+}
+.rightteams{
+    /* height: calc(var(100vw / 30) * 100); */
+    float: right;
+    width: 30%;
+}
+.leftteams>div, .rightteams>div{
+float: left;
+width: 50%; 
+height: 50%;
+}
+.leftteams img,.rightteams img{
+width: 40%;
+position: relative;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+/* backgrouyd color teams left  */
+.leftteams>div:nth-child(1){
+background-color: #a2d39b;
+}
+.leftteams>div:nth-child(2){
+background-color:#61082b;
+}
+.leftteams>div:nth-child(3){
+background-color:#0093ce ;
+}
+.leftteams>div:nth-child(4){
+background-color:#ff1c1c ;
+}
+/* background color team right  */
+.rightteams>div:nth-child(1){
+    background-color:#d5001f ;
+}
+.rightteams>div:nth-child(2){
+    background-color:#b4d0e7 ;
+}
+.rightteams>div:nth-child(3){
+    background-color: #0d2481 ;
+}
+.rightteams>div:nth-child(4){
+    background-color: #ffd830;
 }
 
 
