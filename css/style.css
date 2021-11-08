@@ -206,3 +206,25 @@ body{
 .bottomplan{
     font-size: 15px;
 }
+/* PARTNER MAIN  */
+.mainpartner{
+   margin: 100px 0;
+}
+.mainpartner img{
+    width: 50%;
+    float: left;
+}
+.mainpartner>div{
+    width: 50%;
+    float:left;
+    padding: 60px 70px;
+}
+.mainpartner>div p{
+   margin: 30px 0;
+}
+.mainpartner>div a{
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+
+
