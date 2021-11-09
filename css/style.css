@@ -9,6 +9,9 @@
 body{
     padding-top: 80px;
 }
+.fa-ul{
+    margin-left: 17px;
+}
  /* SELETTORI GLOBALI  */
 .clearfix:after{
     content: "";
@@ -160,8 +163,8 @@ main{
     font-size: 13px;
     margin-bottom: 20px;
 }
-.infoplan>span{
-    display: block;
+
+.infoplan li{
     font-size: 15px;
     margin-bottom: 15px;
 }
@@ -184,11 +187,14 @@ main{
     margin: 20px 0;
     width:60px;
 }
-.listplan>span{
-    display: block;
-    font-size: 12px;
+.listplan li{
+    font-size: 13px;
     margin: 20px 0;
 }
+.listplan i{
+    color: blue;
+}
+
 /* tabella non in float Enterprise */
 .bottomplan{
     margin-top: 40px;
