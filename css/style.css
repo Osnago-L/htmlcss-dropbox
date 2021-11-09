@@ -9,9 +9,6 @@
 body{
     padding-top: 80px;
 }
-/* body *{
-    border: 1px solid black;
-} */
  /* SELETTORI GLOBALI  */
 .clearfix:after{
     content: "";
@@ -49,7 +46,7 @@ body{
     padding: 7px 18px;
     line-height: 25px;
 }
-/* BANNER PROVA GRATUITA  */
+/* BANNER CON IMMAGINE  */
 .banner{
     background-color: #b4d0e7;
     
@@ -95,7 +92,8 @@ body{
     left: 40px;
     width: 95%;
 } 
-/* MAIN PIANI DROPBOX */
+/* PIANI CON COSTI E INFORMAZIONI */
+/* --- container generali main e titoli */
 main{
     padding-top: 200px;
 }
@@ -103,7 +101,8 @@ main{
     max-width: 60%;
     margin: auto;
 }
-h1{
+/* ---titolo h1 globale */
+ h1{ 
     font-size: 40px;
     margin-bottom: 70px;
 }
@@ -111,7 +110,7 @@ h1{
     font-size: 22px;
     margin-right: 40px;
 }
- /* --- tabella costi e prezzi */
+ /* --- float tabelle prezzi e border  */
 .plans{
     display: flex;
 }
@@ -139,7 +138,7 @@ h1{
     text-align: center;
     padding: 5px 0;
 }
-/* --- contenuto tabella */
+/* --- contenuto tabelle */
 .formatplans{
     padding: 30px 30px;
 }
@@ -185,7 +184,7 @@ h1{
     font-size: 12px;
     margin: 20px 0;
 }
-/* --------------- */
+/* tabella non in float Enterprise */
 .bottomplan{
     margin-top: 40px;
     width: 100%;
@@ -270,12 +269,17 @@ h1{
     padding: 50px 50px;
     float: left;
     width: 40%;
-    height: 100%;
-    
+    height: 100%; 
 }
 .quotes img{
     width: 200px;
+    margin-bottom: 40px;
 }
+.quotes>img+hr{
+    width: 30px;
+    margin-bottom: 40px;
+}
+
 .rightteams{
     float: right;
     width: 30%;
@@ -321,23 +325,24 @@ background-color:#ff1c1c ;
 .rightteams>div:nth-child(4){
     background-color: #ffd830;
 }
-.teamprova{
+/* BARRA TEAM BUSINESS AZZURRA */
+.teambusiness{
     height: 500px;
     background-color:#b4d0e7 ;
     padding: 200px;
 }
-.leftteamprova{
+.left_teambusiness{
  float: left;
  width: 40%;
 }
-.leftteamprova h1{
+.right_teambusiness h1{
     color: #743857;   
 }
-.rightteamprova{
+.right_teambusiness{
     float: right;
     width: 40%;
 }
-.rightteamprova a{
+.right_teambusiness a{
     text-align: left;
     text-decoration: none;
     color: black;
@@ -361,6 +366,7 @@ background-color:#ff1c1c ;
     margin-bottom: 15px;
 
 }
+/* FOOTER  */
 footer{
     background-color: black;
     margin-top: 90px;
@@ -392,8 +398,10 @@ footer{
     width: 80px;
     margin-bottom: 30px;
 }
+/* ---lingua footer  */
 .language span{
     color: darkgrey;
     font-size: 12px;
 }
+/* END  */
 
