@@ -372,6 +372,11 @@ background-color:#ff1c1c ;
 }
 .faq h2{
     margin: 20px 0;
+    position: relative;
+}
+.faq h2 i{
+    position: absolute;
+    right: 0;
 }
 .faq>h2:hover+p {
     display: block;
@@ -399,6 +404,9 @@ footer{
     list-style-type: none;
     line-height: 25px;
 }
+.foot a{
+    color: white;
+}
 .foot div ul li h5{
     color: white;
     font-size: 19px;
@@ -411,9 +419,10 @@ footer{
     margin-bottom: 30px;
 }
 /* ---lingua footer  */
-.language span{
+.language span, .language i{
     color: darkgrey;
     font-size: 12px;
+    margin-right: 5px;
 }
 /* END  */
 
