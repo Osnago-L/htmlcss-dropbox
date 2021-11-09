@@ -27,6 +27,9 @@ body{
 .button-border:hover{
     border: 2px groove black;
 }
+.list-highlight:hover{
+    border-bottom:4px solid #0061ff; ;
+}
 /* BARRA DI NAVIGAZIONE  */
 .navcontainer{
     position: fixed;
@@ -35,8 +38,11 @@ body{
     background-color: white;
     height: 80px;
     width: 100vw;
-    padding: 25px 15px;
+    padding-top: 25px;
     z-index: 999;
+}
+nav, nav ul, .leftnav,.rightnav, .leftnav ul li, .rightnav ul li{
+    height: 100%;
 }
 .leftnav{
     padding: 0 40px;
@@ -47,7 +53,10 @@ body{
 .leftnav ul li, .rightnav ul li{
     display: inline-block;
     margin-right: 40px;
-    line-height: 25px;
+    /* line-height: 25px; */
+}
+.leftnav a, .rightnav a{
+    padding: 25px 0;
 }
 .inizia, .rightnav{
     float: right;
@@ -431,7 +440,7 @@ footer{
     margin-bottom: 30px;
 }
 /* ---lingua footer  */
-.language span, .language i{
+.language span, .language i,.language a{
     color: darkgrey;
     font-size: 12px;
     margin-right: 5px;
