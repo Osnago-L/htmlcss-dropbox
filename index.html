@@ -15,29 +15,31 @@
 <body id="start">
     <header>
         <!-- BARRA DI NAVIGAZIONE  -->
-        <section class="navcontainer">
-            <div class="logo">
-                <a href="#start"><img src="img/logo-small.png"></a>
+        <section>
+            <div class="navcontainer">
+                <div class="logo">
+                    <a href="#start"><img src="img/logo-small.png"></a>
+                </div>
+                <nav>
+                    <div class="leftnav">
+                        <ul>
+                            <li class="list-highlight"><a href="#whydrop">Perché Dropbox?</a></li>
+                            <li class="list-highlight"><a href="#functions">Funzioni</a></li>
+                            <li class="list-highlight"><a href="#prices">Piani e prezzi</a></li>
+                        </ul>
+                    </div>
+                    <div class="inizia">
+                        <a class="underline button-higlight" href="#prices">Inizia</a>
+                    </div>
+                    <div class="rightnav">
+                        <ul>
+                            <li class="list-highlight"><a href="https://help.dropbox.com/it-it">Supporto</a></li>
+                            <li class="list-highlight"><a href="#salesdep">Contatta l'ufficio vendite</a></li>
+                            <li class="list-highlight"><a href="https://www.dropbox.com/login">Accedi</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <nav>
-                <div class="leftnav">
-                    <ul>
-                        <li class="list-highlight"><a href="#whydrop">Perché Dropbox?</a></li>
-                        <li class="list-highlight"><a href="#functions">Funzioni</a></li>
-                        <li class="list-highlight"><a href="#prices">Piani e prezzi</a></li>
-                    </ul>
-                </div>
-                <div class="inizia">
-                    <a class="underline button-higlight" href="#prices">Inizia</a>
-                </div>
-                <div class="rightnav">
-                    <ul>
-                        <li class="list-highlight"><a href="https://help.dropbox.com/it-it">Supporto</a></li>
-                        <li class="list-highlight"><a href="#salesdep">Contatta l'ufficio vendite</a></li>
-                        <li class="list-highlight"><a href="https://www.dropbox.com/login">Accedi</a></li>
-                    </ul>
-                </div>
-            </nav>
         </section>
         <!-- BANNER CON IMMAGINE -->
         <section id="whydrop" class="banner clearfix">
@@ -59,80 +61,53 @@
     </header>
     <main>
             <!-- PIANI CON COSTI E INFORMAZIONI  -->
-           <section id="prices" class="maincontainer">
-                <div class="planstitle">
-                        <h1>Trova il piano Dropbox Business che fa per te</h1>
-                        <span><input type="radio"> Fatturazione Mensile</span>
-                        <span><input type="radio"> Fatturazione Annuale</span>
-                </div>
-                <div class="plans clearfix">
+           <section id="prices">
+                <div class="maincontainer">
                     <div>
-                        <span>Singolo</span>
-                        <div class="formatplans">
-                                    <h4>Professional</h4>
-                                    <h5>19.99€</h5>
+                        <div class="planstitle">
+                                <h1>Trova il piano Dropbox Business che fa per te</h1>
+                                <span><input type="radio"> Fatturazione Mensile</span>
+                                <span><input type="radio"> Fatturazione Annuale</span>
+                        </div>
+                    </div>
+                    <div class="plans clearfix">
+                        <div>
+                            <span>Singolo</span>
+                            <div class="formatplans">
+                                        <h4>Professional</h4>
+                                        <h5>19.99€</h5>
+                                        <span class="month">/mese</span>
+                                <div class="infoplan">
+                                        <ul class="fa-ul">
+                                            <li><i class="fa-li fa-solid fa-user"></i>1 utente</li>
+                                            <li><i class=" fa-li fa-solid fa-folder"></i>3 TB di spazio di achiviazione sicuro</li>
+                                            <li><i class="fa-li fa-solid fa-pencil"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                        </ul>
+    
+                                </div>
+                                <div class="buttonplan">
+                                        <a class="underline button-higlight" href="https://www.dropbox.com/business/try">Prova gratis per 30 giorni</a>
+                                        <span>oppure <a href="https://www.dropbox.com/business/buy#0">acquista ora</a></span>
+                                </div>
+                                <hr>
+                                <div class="listplan">
+                                        <h5>Punti salenti del piano</h5>  
+                                        <ul class="fa-ul">
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <span>Team</span>
+                            <div class="formatplans">
+                                        <h4>Standard</h4>
+                                        <h5>19.99€</h5>
                                     <span class="month">/mese</span>
-                            <div class="infoplan">
-                                    <ul class="fa-ul">
-                                        <li><i class="fa-li fa-solid fa-user"></i>1 utente</li>
-                                        <li><i class=" fa-li fa-solid fa-folder"></i>3 TB di spazio di achiviazione sicuro</li>
-                                        <li><i class="fa-li fa-solid fa-pencil"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                    </ul>
-
-                            </div>
-                            <div class="buttonplan">
-                                    <a class="underline button-higlight" href="https://www.dropbox.com/business/try">Prova gratis per 30 giorni</a>
-                                    <span>oppure <a href="https://www.dropbox.com/business/buy#0">acquista ora</a></span>
-                            </div>
-                            <hr>
-                            <div class="listplan">
-                                    <h5>Punti salenti del piano</h5>  
-                                    <ul class="fa-ul">
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                    </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <span>Team</span>
-                        <div class="formatplans">
-                                    <h4>Standard</h4>
-                                    <h5>19.99€</h5>
-                                <span class="month">/mese</span>
-                            <div class="infoplan">
-                                <ul class="fa-ul">
-                                    <li><i class="fa-li fa-solid fa-user"></i>1 utente</li>
-                                    <li><i class=" fa-li fa-solid fa-folder"></i>3 TB di spazio di achiviazione sicuro</li>
-                                    <li><i class="fa-li fa-solid fa-pencil"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                </ul>
-                            </div>
-                            <div class="buttonplan">
-                                    <a class="underline button-higlight" href="https://www.dropbox.com/business/try">Prova gratis per 30 giorni</a>
-                                    <span>oppure <a href="https://www.dropbox.com/business/buy#0">acquista ora</a></span>
-                            </div>
-                            <hr>
-                            <div class="listplan">
-                                    <h5>Punti salenti del piano</h5> 
-                                    <ul class="fa-ul">
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                    </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <span>Team</span>
-                        <div class="formatplans">
-                                <h4>Advanced</h4>
-                                <h5>19.99€</h5>
-                                <span class="month">/mese</span>
                                 <div class="infoplan">
                                     <ul class="fa-ul">
                                         <li><i class="fa-li fa-solid fa-user"></i>1 utente</li>
@@ -141,108 +116,143 @@
                                     </ul>
                                 </div>
                                 <div class="buttonplan">
-                                    <a class="underline button-higlight" href="https://www.dropbox.com/business/try">Prova gratis per 30 giorni</a>
-                                    <span>oppure <a href="https://www.dropbox.com/business/buy#0">acquista ora</a></span>
+                                        <a class="underline button-higlight" href="https://www.dropbox.com/business/try">Prova gratis per 30 giorni</a>
+                                        <span>oppure <a href="https://www.dropbox.com/business/buy#0">acquista ora</a></span>
                                 </div>
                                 <hr>
-                                <div id="salesdep" class="listplan">
-                                    <h5>Punti salenti del piano</h5>  
-                                    <ul class="fa-ul">
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                        <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-                                    </ul>
+                                <div class="listplan">
+                                        <h5>Punti salenti del piano</h5> 
+                                        <ul class="fa-ul">
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                        </ul>
                                 </div>
+                            </div>
+                        </div>
+                        <div>
+                            <span>Team</span>
+                            <div class="formatplans">
+                                    <h4>Advanced</h4>
+                                    <h5>19.99€</h5>
+                                    <span class="month">/mese</span>
+                                    <div class="infoplan">
+                                        <ul class="fa-ul">
+                                            <li><i class="fa-li fa-solid fa-user"></i>1 utente</li>
+                                            <li><i class=" fa-li fa-solid fa-folder"></i>3 TB di spazio di achiviazione sicuro</li>
+                                            <li><i class="fa-li fa-solid fa-pencil"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="buttonplan">
+                                        <a class="underline button-higlight" href="https://www.dropbox.com/business/try">Prova gratis per 30 giorni</a>
+                                        <span>oppure <a href="https://www.dropbox.com/business/buy#0">acquista ora</a></span>
+                                    </div>
+                                    <hr>
+                                    <div id="salesdep" class="listplan">
+                                        <h5>Punti salenti del piano</h5>  
+                                        <ul class="fa-ul">
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                            <li><i class="fa-li fa-solid fa-check"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                                        </ul>
+                                    </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- PIANO ENTERPRISE  -->
-                <div " class="bottomplan ">
-                    <span>Enterprise</span>
-                    <div class="formatplans clearfix">
-                        <div>
-                            <h4>Enterprise</h4>
-                            <h5>Contatta l'ufficio vendite per i prezzi</h5>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam harum consequuntur nesciunt rerum voluptates quod quasi aspernatur, unde vel voluptate maxime nostrum. </p>
-                        </div>
-                        <div>
-                            <a class="underline button-higlight" href="https://experience.dropbox.com/it-it/contact">Contatta l'ufficio vendite</a>
+                    <!-- PIANO ENTERPRISE  -->
+                    <div " class="bottomplan ">
+                        <span>Enterprise</span>
+                        <div class="formatplans clearfix">
+                            <div>
+                                <h4>Enterprise</h4>
+                                <h5>Contatta l'ufficio vendite per i prezzi</h5>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam harum consequuntur nesciunt rerum voluptates quod quasi aspernatur, unde vel voluptate maxime nostrum. </p>
+                            </div>
+                            <div>
+                                <a class="underline button-higlight" href="https://experience.dropbox.com/it-it/contact">Contatta l'ufficio vendite</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- ZONA PARTNER E TROVA PARTNER  -->
-            <section class="mainpartner maincontainer clearfix">
-                    <img src="img/partner.png">
-                    <div>
-                        <h1>Entra in contatto con un partner Dropbox</h1> 
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab tenetur earum officiis nam? Dolorem, consequatur, sit cumque recusandae, veritatis itaque temporibus asperiores consequuntur quisquam tenetur quo id molestiae fuga aspernatur.</p>
-                        <a class="button-border" href="https://portal.dropboxpartners.com/s/locator?language=en_US"> Trova un partner</a>
+            <section>
+                    <div class="maincontainer mainpartner clearfix">
+                        <img src="img/partner.png">
+                        <div>
+                            <h1>Entra in contatto con un partner Dropbox</h1> 
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab tenetur earum officiis nam? Dolorem, consequatur, sit cumque recusandae, veritatis itaque temporibus asperiores consequuntur quisquam tenetur quo id molestiae fuga aspernatur.</p>
+                            <a class="button-border" href="https://portal.dropboxpartners.com/s/locator?language=en_US"> Trova un partner</a>
+                        </div>
                     </div>
             </section>
             <!-- FUNZIONI BUSINESS -->
-            <section id="functions" class="mainbusiness maincontainer clearfix">
-                <h1>Trova il piano Dropbox Business che fa per te</h1>
-                <div class="businessinfo">
-                    <div>
-                        <img src="img/business-feature-switching-tools.png">
+            <section id="functions">
+                <div class="maincontainer mainbusiness clearfix">
+                    <h1>Trova il piano Dropbox Business che fa per te</h1>
+                    <div class="businessinfo">
                         <div>
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            <img src="img/business-feature-switching-tools.png">
+                            <div>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="businessinfo">
-                    <div>
-                        <img src="img/business-feature-coordinate-it.png">
+                    <div class="businessinfo">
                         <div>
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            <img src="img/business-feature-coordinate-it.png">
+                            <div>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="businessinfo">
-                    <div>
-                        <img src="img/business-feature-multi-device.png">
+                    <div class="businessinfo">
                         <div>
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            <img src="img/business-feature-multi-device.png">
+                            <div>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="businessinfo">
-                    <div>
-                        <img src="img/business-feature-send-files-it.png">
+                    <div class="businessinfo">
                         <div>
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            <img src="img/business-feature-send-files-it.png">
+                            <div>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="businessinfo">
-                    <div>
-                        <img src="img/business-feature-integrations-it.png">
+                    <div class="businessinfo">
                         <div>
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            <img src="img/business-feature-integrations-it.png">
+                            <div>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="businessinfo">
-                    <div>
-                        <img src="img/business-feature-security.png">
+                    <div class="businessinfo">
                         <div>
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            <img src="img/business-feature-security.png">
+                            <div>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit possimus officiis ducimus facilis optio aut quam vel voluptatem. Libero explicabo ipsam consequuntur quod ut nam similique tempore iure aspernatur.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- ZONA TEAM E LOGO DEI TEAM  -->
-            <section class="mainteams clearfix">
-                <div class="maincontainer">
+            <section>
+                <div class="maincontainer mainteams clearfix">
                     <h1>Piu di 500.000 team utilizzano Dropbox Business</h1>
                     <a href="#">Scopri di piu' sui nostri clienti</a>
                 </div>
@@ -275,93 +285,99 @@
                 </div>
             </section>
             <!-- DOMANDE FREQUENTI  -->
-            <section class="maincontainer">
-                <div class="faq">
-                    <h1>Domande Frequenti</h1>
-                    <hr>
-                    <div class="faqhover">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-angle-down"></i></h2>
-                        <p class="off">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit obcaecati ipsa rem fugiat veritatis beatae rerum ipsam accusantium libero earum, architecto corrupti? Aspernatur perspiciatis vero, dignissimos molestiae tempora voluptatem voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quod dignissimos iure voluptates voluptate reprehenderit ipsum explicabo pariatur, non eos optio ut fugiat et maxime nisi ad dolorem reiciendis dolore.</p>
+            <section>
+                <div class="maincontainer">
+                    <div class="faq">
+                        <h1>Domande Frequenti</h1>
                         <hr>
-                    </div>
-                    <div class="faqhover">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-angle-down"></i></h2>
-                        <p class="off">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit obcaecati ipsa rem fugiat veritatis beatae rerum ipsam accusantium libero earum, architecto corrupti? Aspernatur perspiciatis vero, dignissimos molestiae tempora voluptatem voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quod dignissimos iure voluptates voluptate reprehenderit ipsum explicabo pariatur, non eos optio ut fugiat et maxime nisi ad dolorem reiciendis dolore.</p>
-                        <hr>
-                    </div>
-                    <div class="faqhover">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-angle-down"></i></h2>
-                        <p class="off">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit obcaecati ipsa rem fugiat veritatis beatae rerum ipsam accusantium libero earum, architecto corrupti? Aspernatur perspiciatis vero, dignissimos molestiae tempora voluptatem voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quod dignissimos iure voluptates voluptate reprehenderit ipsum explicabo pariatur, non eos optio ut fugiat et maxime nisi ad dolorem reiciendis dolore.</p>
-                        <hr>
-                    </div>
-                    <div class="faqhover">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-angle-down"></i></h2>
-                        <p class="off">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit obcaecati ipsa rem fugiat veritatis beatae rerum ipsam accusantium libero earum, architecto corrupti? Aspernatur perspiciatis vero, dignissimos molestiae tempora voluptatem voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quod dignissimos iure voluptates voluptate reprehenderit ipsum explicabo pariatur, non eos optio ut fugiat et maxime nisi ad dolorem reiciendis dolore.</p>
-                        <hr>
+                        <div class="faqhover">
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-angle-down"></i></h2>
+                            <p class="off">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit obcaecati ipsa rem fugiat veritatis beatae rerum ipsam accusantium libero earum, architecto corrupti? Aspernatur perspiciatis vero, dignissimos molestiae tempora voluptatem voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quod dignissimos iure voluptates voluptate reprehenderit ipsum explicabo pariatur, non eos optio ut fugiat et maxime nisi ad dolorem reiciendis dolore.</p>
+                            <hr>
+                        </div>
+                        <div class="faqhover">
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-angle-down"></i></h2>
+                            <p class="off">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit obcaecati ipsa rem fugiat veritatis beatae rerum ipsam accusantium libero earum, architecto corrupti? Aspernatur perspiciatis vero, dignissimos molestiae tempora voluptatem voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quod dignissimos iure voluptates voluptate reprehenderit ipsum explicabo pariatur, non eos optio ut fugiat et maxime nisi ad dolorem reiciendis dolore.</p>
+                            <hr>
+                        </div>
+                        <div class="faqhover">
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-angle-down"></i></h2>
+                            <p class="off">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit obcaecati ipsa rem fugiat veritatis beatae rerum ipsam accusantium libero earum, architecto corrupti? Aspernatur perspiciatis vero, dignissimos molestiae tempora voluptatem voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quod dignissimos iure voluptates voluptate reprehenderit ipsum explicabo pariatur, non eos optio ut fugiat et maxime nisi ad dolorem reiciendis dolore.</p>
+                            <hr>
+                        </div>
+                        <div class="faqhover">
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-angle-down"></i></h2>
+                            <p class="off">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit obcaecati ipsa rem fugiat veritatis beatae rerum ipsam accusantium libero earum, architecto corrupti? Aspernatur perspiciatis vero, dignissimos molestiae tempora voluptatem voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quod dignissimos iure voluptates voluptate reprehenderit ipsum explicabo pariatur, non eos optio ut fugiat et maxime nisi ad dolorem reiciendis dolore.</p>
+                            <hr>
+                        </div>
                     </div>
                 </div>
             </section>
     </main>
     <footer>
         <!-- MENU FOOTER  -->
-        <div class="footcontainer">
-            <section class="foot clearfix ">
-                <div>
-                    <ul>
-                        <li><h5>Lorem</h5></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                    </ul>
+        <div>
+            <section>
+                <div class="footcontainer">
+                    <div class=" foot clearfix">
+                        <div>
+                            <ul>
+                                <li><h5>Lorem</h5></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><h5>Lorem</h5></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><h5>Lorem</h5></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><h5>Lorem</h5></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><h5>Lorem</h5></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                                <li><a class="underline" href="#">Lorem</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+                <!-- SCELTA LINGUA DELLA PAGINA  -->
+                <section class="language">
+                    <span></span><i class="fa-solid fa-globe"></i><a class="underline" href="#">Italiano</a><span><i class="fa-solid fa-caret-up"></i></span>
+                </section>
                 </div>
-                <div>
-                    <ul>
-                        <li><h5>Lorem</h5></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><h5>Lorem</h5></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><h5>Lorem</h5></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><h5>Lorem</h5></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                        <li><a class="underline" href="#">Lorem</a></li>
-                    </ul>
-                </div>
-            </section>
-            <hr>
-            <!-- SCELTA LINGUA DELLA PAGINA  -->
-            <section class="language">
-                <span></span><i class="fa-solid fa-globe"></i><a class="underline" href="#">Italiano</a><span><i class="fa-solid fa-caret-up"></i></span>
-            </section>
         </div>
     </footer>
 </body>

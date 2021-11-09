@@ -392,7 +392,6 @@ background-color:#ff1c1c ;
     background-color: white;
     margin-left: 120px;
 }
-
 /* FAQ */
 .faq{
     margin-top: 60px;
@@ -411,10 +410,9 @@ background-color:#ff1c1c ;
 .faqhover:hover>p {
     display: block;
     margin-bottom: 15px;
-
 }
 /* FOOTER  */
-footer{
+footer>div{
     background-color: black;
     margin-top: 90px;
     padding: 80px 50px;
@@ -441,9 +439,8 @@ footer{
     color: white;
     font-size: 19px;
     margin-bottom: 20px;
-
 }
-.foot+hr{
+ footer section+hr{
     display: block;
     width: 80px;
     margin-bottom: 30px;
