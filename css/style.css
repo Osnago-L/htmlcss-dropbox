@@ -18,6 +18,15 @@ body{
     display: table;
     clear: both;
 }
+.underline:hover{
+    text-decoration: underline;
+}
+.button-higlight:hover{
+    filter: brightness(1.25);
+}
+.button-border:hover{
+    border: 2px groove black;
+}
 /* BARRA DI NAVIGAZIONE  */
 .navcontainer{
     position: fixed;
@@ -310,10 +319,13 @@ height: 50%;
    transform: translate(-50%,-50%);
    filter: invert(100%);
 }
+.teambright:hover{
+    border: 10px solid rgba(225, 225, 225, 0.4);
+}
+
 /* backgrouyd color teams left  */
 .leftteams>div:nth-child(1){
 background-color: #a2d39b;
-border: 10px solid #d0e9cd;
 }
 .leftteams>div:nth-child(2){
 background-color:#61082b;
@@ -378,7 +390,7 @@ background-color:#ff1c1c ;
     position: absolute;
     right: 0;
 }
-.faq>h2:hover+p {
+.faqhover:hover>p {
     display: block;
     margin-bottom: 15px;
 
