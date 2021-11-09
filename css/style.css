@@ -361,4 +361,39 @@ background-color:#ff1c1c ;
     margin-bottom: 15px;
 
 }
+footer{
+    background-color: black;
+    margin-top: 90px;
+    padding: 80px 50px;
+}
+.footcontainer{
+    max-width: 75%;
+    margin: 0 auto;
+}
+.foot>div{
+    width: 20%;
+    float: left;
+    min-height: 300px;
+}
+.foot div ul li{
+    color: white;
+    font-size: 15px;
+    list-style-type: none;
+    line-height: 25px;
+}
+.foot div ul li h5{
+    color: white;
+    font-size: 19px;
+    margin-bottom: 20px;
+
+}
+.foot+hr{
+    display: block;
+    width: 80px;
+    margin-bottom: 30px;
+}
+.language span{
+    color: darkgrey;
+    font-size: 12px;
+}
 
