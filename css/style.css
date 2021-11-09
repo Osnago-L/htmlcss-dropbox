@@ -76,11 +76,16 @@ body{
     background-color: #0061ff;
     padding: 10px 20px;
     color: white;
-    
+    margin-bottom: 60px;
 }
-.leftbanner p:last-child{
+.leftbanner span{
+    display: block;
     margin-top: 20px;
+    margin-bottom: 40px;
     font-size: 15px;
+}
+.leftbanner i{
+    font-size: 40px;
 }
 .rightbanner{
     float: right;
